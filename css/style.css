@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.loginScreen{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 4rem 4rem;
+    border-radius: 1rem;
+    margin: 10% 20% 0 20%;
+    row-gap: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+
+.toggleModal{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    height: 100vh;
+
+    z-index: 1;
+}
+
+.offModal{
+    display:none;
+}
+
+.offLogin{
+    visibility:hidden;
+    z-index: 0;
+    position: absolute;
+}
